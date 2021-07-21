@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+.form-box {
+	width: 400px;
+	margin: 5px 5px 30px 5px;
+	border: 1px solid #ccc;
+}
+.form-title {
+    text-align: center;
+    padding: 10px; 
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.form-row {
+	padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions {
+	border-top: 1px solid #ccc;
+	text-align: center;
+	padding: 10px;
+}
+
+.form-box span.action-container {
+    margin: 10px;
+}
+
+.form-status {
+    padding: 10px;
+    border-left: 5px solid #f8be00;
+    margin-bottom: 20px;
+}
